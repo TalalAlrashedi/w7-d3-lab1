@@ -17,11 +17,12 @@ function App() {
           المنتجات الرقمية
         </h2>
 
-        <div className="grid grid-cols-1 relative sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 ">
+        <div className="grid grid-cols-1 relative sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5
+         ">
           {items.map((i) => (
             <div
               key={i.id}
-              className="bg-white p-4 rounded shadow hover:shadow-lg transition"
+              className="bg-white p-4 rounded shadow hover:shadow-lg  transition"
             >
               <p className="text-sm w-30 bg-sky-900 text-white py-1 rounded rounded-2xl mb-3 text-center">{i.category}</p>
               <img
